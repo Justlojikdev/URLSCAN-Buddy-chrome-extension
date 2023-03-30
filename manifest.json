@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "URLScan buddy",
+  "version": "1.0.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "https://urlscan.io/*"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "URL Scan",
+    "default_popup": "popup.html"
+  }
+}

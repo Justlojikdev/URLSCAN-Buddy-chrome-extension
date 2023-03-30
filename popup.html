@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>URL scan buddy Popup</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>URL scan buddy</h1>
+      <form>
+        <label for="url">Enter URL to scan:</label>
+        <input type="text" id="url" name="url">
+        <button id="scanButton">Scan URL</button>
+      </form>
+      <div id="loading" style="display:none;">Scanning URL...</div>
+      <div id="results"></div>
+    </div>
+  </body>
+</html>
