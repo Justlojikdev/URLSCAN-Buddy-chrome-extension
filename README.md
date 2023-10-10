@@ -45,3 +45,13 @@ To use this extension, you need to provide an API key for the urlscan.io API. Re
 
 ```javascript
 const apiKey = 'YOUR_API_KEY_HERE';
+
+## Feedback and Contributions
+If you encounter any issues, have suggestions for improvements, or would like to contribute to the development of this extension, please feel free to create an issue or submit a pull request on our GitHub repository.
+
+## License
+This Chrome extension is licensed under the MIT License.
+
+## Acknowledgments
+This extension was developed with the help of the urlscan.io API.
+
